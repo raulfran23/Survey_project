@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <aside>
+            <form> 
+                <fieldset class="personal-info">
+                    <h2>Información basica de la solicitante</h2>
+                    <label>
+                        Nombre/s
+                        <input type="text" name="nombres" required>
+                    </label>
+                    <br>
+                    <label>
+                        Apellidos
+                        <input type="text" name="apellidos" required>
+                    </label>
+                    <br>
+                    <label>
+                        Fecha de nacimiento
+                        <input type="date" name="fecha-nacimiento" required>
+                    </label>
+                    <br>
+                    <label>
+                        telefono
+                        <input type="tel" name="telefono" required>
+                    </label>
+                    <br>
+                    <label>
+                        e-mail
+                        <input type="email" name="email-address" placeholder="ejemplo@correo.com" required>
+                    </label>
+                </fieldset>
+
+                <fieldset class="Relaciones-pasadas">
+                    <h2>Relaciones pasadas</h2>
+                    <label>
+                        Numero de ex-novios
+                        <select select="ex-novios" required>
+                            <option value="0">0</option>
+                            <option value="1" >1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4 o más</option>
+                        </select>
+                        <br>
+                        ¿has sido infiel?
+                        <input type="radio" name="infiel" value="si">si
+                        <input type="radio" name="infiel" value="no">no
+                    </label>
+                    <br>
+                    <label>
+                        nivel de toxicidad
+                        <input type="range" name="toxicidad">
+                        </input>
+                    </label>
+                </fieldset>
+                <fieldset class="archivos">
+                    <p>Send Nudes</p>
+                    <input type="file" id="nudes" name="avatar">
+                </fieldset>
+                
+            </form>
+            <fieldset class="action">
+                <input class="btn" type="submit" name="submit" value="Enviar">
+                <label>
+                <input type="checkbox" name="remember" required> Acepto términos y condiciones
+                </label>
+            </fieldset>
+        </aside>    
+    </body>
+</html>

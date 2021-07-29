@@ -1,0 +1,60 @@
+
+  .btn {
+    border: 0;
+    background: rgb(105, 105, 105);
+    padding: .8em 1.5em;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .btn:hover {
+    background: #aaaaaa;
+  }
+  
+  *,
+  *:before,
+  *:after {
+     box-sizing: border-box;
+  }
+
+  form {
+    font: 1rem;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  fieldset {
+    border: 0;
+    margin: 0 0 1em 1rem;
+    padding: 0;
+    overflow: hidden;
+  }
+  input {
+    border-radius: 2em;
+    margin: .5em;
+  }
+
+  h2 {
+      font-size: 1.2rem;
+      margin: .8em 0;
+  }
+
+
+  aside {
+      border: 2px solid rgb(172, 172, 172);
+      background-color: rgb(0, 197, 197);
+      border-radius: 2em;
+      margin: 2%;
+      float: right;
+      width: 60%;
+      padding: 2%;
+      max-width: 450px;
+  }
+
+  input, select {
+    margin: 1em 1em;
+  }
+
+  aside fieldset label, p{
+    color: rgb(238, 238, 238);
+  }
